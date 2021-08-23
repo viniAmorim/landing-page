@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -233,7 +233,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ \"./src/components/Logo/styles.ts\");\nvar _jsxFileName = \"/home/vini/Documents/landing-page/src/components/Logo/index.tsx\";\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\n\n\nconst Logo = ({\n  url,\n  alternativeText\n}) => __jsx(_styles__WEBPACK_IMPORTED_MODULE_1__[\"LogoWrapper\"], {\n  src: `http://localhost:1337${url}`,\n  alt: alternativeText,\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 6,\n    columnNumber: 54\n  }\n});\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Logo);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tcG9uZW50cy9Mb2dvL2luZGV4LnRzeD80N2Q0Il0sIm5hbWVzIjpbIkxvZ28iLCJ1cmwiLCJhbHRlcm5hdGl2ZVRleHQiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBR0E7O0FBRUEsTUFBTUEsSUFBSSxHQUFHLENBQUM7QUFBRUMsS0FBRjtBQUFPQztBQUFQLENBQUQsS0FBd0MsTUFBQyxtREFBRDtBQUFlLEtBQUcsRUFBRyx3QkFBdUJELEdBQUksRUFBaEQ7QUFBbUQsS0FBRyxFQUFFQyxlQUF4RDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEVBQXJEOztBQUVlRixtRUFBZiIsImZpbGUiOiIuL3NyYy9jb21wb25lbnRzL0xvZ28vaW5kZXgudHN4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuXG5pbXBvcnQgeyBMb2dvUHJvcHMgfSBmcm9tICd0eXBlcy9hcGknO1xuaW1wb3J0ICogYXMgUyBmcm9tICcuL3N0eWxlcydcblxuY29uc3QgTG9nbyA9ICh7IHVybCwgYWx0ZXJuYXRpdmVUZXh0fTogTG9nb1Byb3BzKSA9PiA8Uy5Mb2dvV3JhcHBlciBzcmM9e2BodHRwOi8vbG9jYWxob3N0OjEzMzcke3VybH1gfSBhbHQ9e2FsdGVybmF0aXZlVGV4dH0gLz5cblxuZXhwb3J0IGRlZmF1bHQgTG9nb1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Logo/index.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var utils_getImageUrl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! utils/getImageUrl */ \"./src/utils/getImageUrl.ts\");\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles */ \"./src/components/Logo/styles.ts\");\nvar _jsxFileName = \"/home/vini/Documents/landing-page/src/components/Logo/index.tsx\";\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\n\n\n\nconst Logo = ({\n  url,\n  alternativeText\n}) => __jsx(_styles__WEBPACK_IMPORTED_MODULE_2__[\"LogoWrapper\"], {\n  src: Object(utils_getImageUrl__WEBPACK_IMPORTED_MODULE_1__[\"getImageUrl\"])(url),\n  alt: alternativeText,\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 8,\n    columnNumber: 3\n  }\n});\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Logo);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tcG9uZW50cy9Mb2dvL2luZGV4LnRzeD80N2Q0Il0sIm5hbWVzIjpbIkxvZ28iLCJ1cmwiLCJhbHRlcm5hdGl2ZVRleHQiLCJnZXRJbWFnZVVybCJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBO0FBR0E7QUFDQTs7QUFFQSxNQUFNQSxJQUFJLEdBQUcsQ0FBQztBQUFFQyxLQUFGO0FBQU9DO0FBQVAsQ0FBRCxLQUNYLE1BQUMsbURBQUQ7QUFBZSxLQUFHLEVBQUVDLHFFQUFXLENBQUNGLEdBQUQsQ0FBL0I7QUFBc0MsS0FBRyxFQUFFQyxlQUEzQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEVBREY7O0FBSWVGLG1FQUFmIiwiZmlsZSI6Ii4vc3JjL2NvbXBvbmVudHMvTG9nby9pbmRleC50c3guanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmltcG9ydCB7IExvZ29Qcm9wcyB9IGZyb20gJ3R5cGVzL2FwaSc7XG5pbXBvcnQgeyBnZXRJbWFnZVVybCB9IGZyb20gJ3V0aWxzL2dldEltYWdlVXJsJ1xuaW1wb3J0ICogYXMgUyBmcm9tICcuL3N0eWxlcydcblxuY29uc3QgTG9nbyA9ICh7IHVybCwgYWx0ZXJuYXRpdmVUZXh0fTogTG9nb1Byb3BzKSA9PiAoXG4gIDxTLkxvZ29XcmFwcGVyIHNyYz17Z2V0SW1hZ2VVcmwodXJsKX0gYWx0PXthbHRlcm5hdGl2ZVRleHR9IC8+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IExvZ29cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Logo/index.tsx\n");
 
 /***/ }),
 
@@ -617,7 +617,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var graphql_request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! graphql-request */ \"graphql-request\");\n/* harmony import */ var graphql_request__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(graphql_request__WEBPACK_IMPORTED_MODULE_0__);\n\nconst client = new graphql_request__WEBPACK_IMPORTED_MODULE_0__[\"GraphQLClient\"]('http://localhost:1337/graphql');\n/* harmony default export */ __webpack_exports__[\"default\"] = (client);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvZ3JhcGhxbC9jbGllbnQudHM/ZDJkOSJdLCJuYW1lcyI6WyJjbGllbnQiLCJHcmFwaFFMQ2xpZW50Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUVBLE1BQU1BLE1BQU0sR0FBRyxJQUFJQyw2REFBSixDQUFrQiwrQkFBbEIsQ0FBZjtBQUNlRCxxRUFBZiIsImZpbGUiOiIuL3NyYy9ncmFwaHFsL2NsaWVudC50cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdyYXBoUUxDbGllbnQgfSBmcm9tICdncmFwaHFsLXJlcXVlc3QnXG5cbmNvbnN0IGNsaWVudCA9IG5ldyBHcmFwaFFMQ2xpZW50KCdodHRwOi8vbG9jYWxob3N0OjEzMzcvZ3JhcGhxbCcpXG5leHBvcnQgZGVmYXVsdCBjbGllbnRcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/graphql/client.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var graphql_request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! graphql-request */ \"graphql-request\");\n/* harmony import */ var graphql_request__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(graphql_request__WEBPACK_IMPORTED_MODULE_0__);\n\nconst client = new graphql_request__WEBPACK_IMPORTED_MODULE_0__[\"GraphQLClient\"](process.env.GRAPHQL_HOST);\n/* harmony default export */ __webpack_exports__[\"default\"] = (client);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvZ3JhcGhxbC9jbGllbnQudHM/ZDJkOSJdLCJuYW1lcyI6WyJjbGllbnQiLCJHcmFwaFFMQ2xpZW50IiwicHJvY2VzcyIsImVudiIsIkdSQVBIUUxfSE9TVCJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFFQSxNQUFNQSxNQUFNLEdBQUcsSUFBSUMsNkRBQUosQ0FBa0JDLE9BQU8sQ0FBQ0MsR0FBUixDQUFZQyxZQUE5QixDQUFmO0FBQ2VKLHFFQUFmIiwiZmlsZSI6Ii4vc3JjL2dyYXBocWwvY2xpZW50LnRzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgR3JhcGhRTENsaWVudCB9IGZyb20gJ2dyYXBocWwtcmVxdWVzdCdcblxuY29uc3QgY2xpZW50ID0gbmV3IEdyYXBoUUxDbGllbnQocHJvY2Vzcy5lbnYuR1JBUEhRTF9IT1NUKVxuZXhwb3J0IGRlZmF1bHQgY2xpZW50XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/graphql/client.ts\n");
 
 /***/ }),
 
@@ -1053,7 +1053,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ 3:
+/***/ "./src/utils/getImageUrl.ts":
+/*!**********************************!*\
+  !*** ./src/utils/getImageUrl.ts ***!
+  \**********************************/
+/*! exports provided: getImageUrl */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getImageUrl\", function() { return getImageUrl; });\nconst getImageUrl = url => `${\"http://localhost:1337\"}${url}`;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvdXRpbHMvZ2V0SW1hZ2VVcmwudHM/NDY4NiJdLCJuYW1lcyI6WyJnZXRJbWFnZVVybCIsInVybCIsInByb2Nlc3MiXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBTyxNQUFNQSxXQUFXLEdBQUlDLEdBQUQsSUFDeEIsR0FBRUMsdUJBQW1DLEdBQUVELEdBQUksRUFEdkMiLCJmaWxlIjoiLi9zcmMvdXRpbHMvZ2V0SW1hZ2VVcmwudHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZ2V0SW1hZ2VVcmwgPSAodXJsOiBzdHJpbmcpID0+XG4gIGAke3Byb2Nlc3MuZW52Lk5FWFRfUFVCTElDX0lNQUdFX0hPU1R9JHt1cmx9YDtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/utils/getImageUrl.ts\n");
+
+/***/ }),
+
+/***/ 4:
 /*!***********************************!*\
   !*** multi ./src/pages/index.tsx ***!
   \***********************************/
