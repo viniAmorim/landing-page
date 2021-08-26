@@ -93,9 +93,19 @@ export type Review = {
   }
 }
 
-export type sectionReviewsProps = {
+export type SectionReviewsProps = {
   title: string
   reviews: Review[]
+}
+
+export type Question = {
+  question: string
+  answer: string
+}
+
+export type SectionFaqProps = {
+  title: string
+  questions: Question[]
 }
 
 export type LandingPageProps = {
@@ -108,6 +118,7 @@ export type LandingPageProps = {
   sectionAgenda: SectionAgendaProps
   pricingBox: PricingBoxProps
   sectionAboutUs: SectionAboutProjectProps
-  sectionReviews: sectionReviewsProps
+  sectionReviews: SectionReviewsProps
+  sectionFaq: SectionFaqProps
 }
 

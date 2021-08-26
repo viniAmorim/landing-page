@@ -6,7 +6,7 @@ import Heading from 'components/Heading'
 import ReviewCard from 'components/ReviewCard'
 
 import * as S from './styles'
-import { sectionReviewsProps } from 'types/api'
+import { SectionReviewsProps } from 'types/api'
 
 const settings = {
   dots: true,
@@ -30,7 +30,7 @@ const settings = {
   ]
 }
 
-const SectionReviews = ({ title, reviews }: sectionReviewsProps) => (
+const SectionReviews = ({ title, reviews }: SectionReviewsProps) => (
   <Container>
     <Heading reverseColor>{title}</Heading>
 
